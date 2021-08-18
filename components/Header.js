@@ -27,6 +27,7 @@ function Header() {
 				src="/hulu.png"
 				width={200}
 				height={120}
+				alt=""
 			/>
 		</StyledHeader>
 	);
