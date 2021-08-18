@@ -12,6 +12,8 @@ export default function Home({ results }) {
 		<div>
 			<Head>
 				<title>Hulu</title>
+				<meta property="og:title" content="My page title" key="title" />
+
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
