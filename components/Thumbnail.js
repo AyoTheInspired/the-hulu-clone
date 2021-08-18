@@ -24,8 +24,8 @@ function Thumbnail({ result }) {
 					{result.title || result.original_name}{" "}
 				</h2>
 				<p className="flex items-center opacity-0 group-hover:opacity-100">
-					{result.media_type && `${result.media_type} * `}
-					{result.release_date || result.first_air_date} *
+					{/* {result.media_type && `${result.media_type} * `} */}
+					{result.release_date || result.first_air_date} -
 					<ThumbUpIcon className="h-5 mx-2" /> {result.vote_count}
 				</p>
 			</div>
